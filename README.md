@@ -15,11 +15,10 @@
 - Права суперпользователя (root / sudo) на Linux для получения MAC-адресов через ARP.
 - Пакеты из requirements.txt (os, socket, csv — из стандартной библиотеки; scapy — опционально).
 
-## Установка
+## Установка:
 
-`bash
-git clone https://github.com/your-username/NetScan.git
+1. git clone https://github.com/your-username/NetScan.git
 
-cd NetScan
+2. cd NetScan
 
-pip install -r requirements.txt
+3. pip install -r requirements.txt

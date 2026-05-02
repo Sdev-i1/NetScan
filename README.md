@@ -15,6 +15,7 @@
 1. Клонируйте репозиторий:
    
    git clone https://github.com/your-username/NetScan.git
+   
    cd NetScan
 
 1. Установите зависимости:
@@ -23,7 +24,7 @@
   
    или
    
-   pip install scapy   # если используется scapy
+   pip install scapy   
   
 
 Использование

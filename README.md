@@ -19,5 +19,7 @@
 
 `bash
 git clone https://github.com/your-username/NetScan.git
+
 cd NetScan
+
 pip install -r requirements.txt

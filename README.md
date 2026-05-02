@@ -14,18 +14,15 @@
 
 1. Клонируйте репозиторий:
    
-bash
    git clone https://github.com/your-username/NetScan.git
    cd NetScan
 
 1. Установите зависимости:
    
-bash
    pip install -r requirements.txt
   
    или
    
-bash
    pip install scapy   # если используется scapy
   
 
@@ -35,19 +32,16 @@ bash
 
 Сканирование стандартного диапазона 192.168.1.0/24:
 
-bash
 python netscan.py
 
 Указание произвольной подсети:
 
-bash
 python netscan.py --subnet 10.0.0.0/24
 
 Экспорт в CSV
 
 Чтобы сохранить результат в файл, добавьте флаг --csv и укажите имя файла:
 
-bash
 python netscan.py --csv devices.csv
 
 Пример содержимого devices.csv:
